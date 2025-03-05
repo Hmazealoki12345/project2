@@ -130,7 +130,7 @@ async function main() {
     }
     isChannelTurn = !isChannelTurn;
     //TIME
-  }, 40000); 
+  }, 45000); 
 }
 bot.command("get_info", async (ctx) => {
   let stats = { total_requests: 0, last_check: "Noma'lum", blocked: false };
